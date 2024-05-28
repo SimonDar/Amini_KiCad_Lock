@@ -107,109 +107,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint_Alt"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Alt"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative shape)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Alt_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Alt_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -2531,6 +2428,271 @@
 				)
 			)
 		)
+		(symbol "MM8130-2600RA2:MM8130-2600RA2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.6393 5.6021 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MM8130-2600RA2"
+				(at -7.6303 -7.6303 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MM8130-2600RA2:MURATA_MM8130-2600RA2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nSWF Connector Receptacle, Female Socket 50 Ohms Surface Mount Solder\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MM8130-2600RA2/Murata+Electronics+North+America/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MM8130-2600RA2/Murata+Electronics+North+America/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MM8130-2600RA2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "MURATA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MM8130-2600RA2_0_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "nrf5340_qkaa_config3-altium-import:GND_POWER_GROUND"
 			(power)
 			(exclude_from_sim no)
@@ -4202,153 +4364,6 @@
 				)
 			)
 		)
-		(symbol "pca10143_sheet2_nrf5340_mcu-altium-import:root_0_mirrored_IND"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, 500mA, ±0.1ｎH, 170mOhm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*INDC0603X03L_C*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_mirrored_IND_1_0"
-				(arc
-					(start -5.334 0)
-					(mid -6.096 0.762)
-					(end -6.858 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 0)
-					(mid -4.572 0.762)
-					(end -5.334 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.286 0)
-					(mid -3.048 0.762)
-					(end -3.81 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.762 0)
-					(mid -1.524 0.762)
-					(end -2.286 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 180)
-					(length 0.762)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 0.762)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_CAP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4783,22 +4798,10 @@
 		(uuid "4905a9fc-ce13-4af4-8348-1df9202e18fb")
 	)
 	(junction
-		(at 27.94 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5745b244-a216-420b-a5e0-3a6f28c99bc5")
-	)
-	(junction
 		(at 265.43 12.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c409cec-3c26-4e88-8cff-11685a73c007")
-	)
-	(junction
-		(at 27.94 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7243a757-59e6-4697-8591-65cf238ce98d")
 	)
 	(junction
 		(at 44.45 133.35)
@@ -4867,10 +4870,10 @@
 		(uuid "d6b25381-490c-4280-b9ae-5e90034b4b63")
 	)
 	(junction
-		(at 27.94 129.54)
+		(at 210.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db6f74aa-da58-4c8b-9f46-a4787a3fef6a")
+		(uuid "dde8516c-7ae6-409c-b55b-06863144d94d")
 	)
 	(junction
 		(at 276.86 109.22)
@@ -4887,16 +4890,6 @@
 			(type default)
 		)
 		(uuid "0183e0cc-270f-4274-80a9-90cdb7ee7e56")
-	)
-	(wire
-		(pts
-			(xy 27.94 129.54) (xy 27.94 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02910651-c0f2-437e-8ee7-65097ed3c722")
 	)
 	(wire
 		(pts
@@ -4990,16 +4983,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 111.76) (xy 27.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f0351aa-7f91-4207-b43b-c143dd8d1a1b")
-	)
-	(wire
-		(pts
 			(xy 78.74 153.67) (xy 60.96 153.67)
 		)
 		(stroke
@@ -5007,16 +4990,6 @@
 			(type default)
 		)
 		(uuid "31932708-0dee-4ac7-ba6b-a688084f775d")
-	)
-	(wire
-		(pts
-			(xy 259.08 143.51) (xy 259.08 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3493aa01-a0cb-4802-bb1b-dae5b8e3e53b")
 	)
 	(wire
 		(pts
@@ -5047,16 +5020,6 @@
 			(type default)
 		)
 		(uuid "4285b37a-b809-468c-ac40-3a1da44215c1")
-	)
-	(wire
-		(pts
-			(xy 27.94 133.35) (xy 44.45 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4313e53d-6067-4dcf-9d2a-f31dce663406")
 	)
 	(wire
 		(pts
@@ -5147,6 +5110,26 @@
 			(type default)
 		)
 		(uuid "61412281-3cfa-4c51-9470-fca212b5b52c")
+	)
+	(wire
+		(pts
+			(xy 48.26 115.57) (xy 40.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6233483f-33b5-4180-8f5b-68fe6c88bb90")
+	)
+	(wire
+		(pts
+			(xy 210.82 88.9) (xy 229.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d2cc91-8581-49ce-ae24-e4a756832803")
 	)
 	(wire
 		(pts
@@ -5270,6 +5253,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 120.65) (xy 40.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fe89b1-fbca-41f4-b247-643f1f01f92b")
+	)
+	(wire
+		(pts
+			(xy 20.32 133.35) (xy 20.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9395064d-70fa-42e1-aa30-8592392dc28c")
+	)
+	(wire
+		(pts
 			(xy 71.12 87.63) (xy 71.12 85.09)
 		)
 		(stroke
@@ -5300,26 +5303,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 142.24) (xy 250.19 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c84013-fda5-477c-9e3e-cea6d5bc5545")
-	)
-	(wire
-		(pts
-			(xy 27.94 111.76) (xy 27.94 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a647a7cb-0b42-49a3-8503-22f17908dff9")
-	)
-	(wire
-		(pts
 			(xy 78.74 24.13) (xy 67.31 24.13)
 		)
 		(stroke
@@ -5337,16 +5320,6 @@
 			(type default)
 		)
 		(uuid "b8cda9a7-500a-47a0-9bfd-3294aed17ad3")
-	)
-	(wire
-		(pts
-			(xy 27.94 133.35) (xy 27.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bccf448c-03f5-4b7d-b0cb-75a7974f2be8")
 	)
 	(wire
 		(pts
@@ -5440,6 +5413,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 133.35) (xy 44.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaa68d0-2ace-4fc5-ab6f-50b4c0c3d094")
+	)
+	(wire
+		(pts
 			(xy 106.68 15.24) (xy 20.32 15.24)
 		)
 		(stroke
@@ -5497,6 +5480,16 @@
 			(type default)
 		)
 		(uuid "e8970034-3ef4-497d-abfe-04e5aface8fc")
+	)
+	(wire
+		(pts
+			(xy 48.26 114.3) (xy 48.26 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec03e4a0-7f22-4639-a2da-cd036446152f")
 	)
 	(wire
 		(pts
@@ -5771,73 +5764,6 @@
 			(justify left bottom)
 		)
 		(uuid "e217f5f7-b9b1-4a19-bb30-19ac759ffb3e")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 194.31 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0489f7f5-9cc5-4270-8926-85bc4640ab49")
-		(property "Reference" "TP8"
-			(at 199.39 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 199.39 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 194.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f21e630-2b6c-435b-aab2-5ad1bb475138")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "pca10095_sheet4_misc-altium-import:root_0_mirrored_D{colon}LED")
@@ -6316,7 +6242,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC0603X03L_C"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 74.93 140.97 0)
 			(effects
 				(font
@@ -6755,411 +6681,6 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nrf5340_qkaa_config3-altium-import:GND_POWER_GROUND")
-		(at 259.08 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a9f92d5-d058-4e80-86cd-4df058834b27")
-		(property "Reference" "#PWR030"
-			(at 259.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7b90586c-0f17-4610-afe7-a1396073d75a")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_CAP")
-		(at 35.56 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2abd17ee-7a93-480e-8bea-23d732b09e96")
-		(property "Reference" "C3"
-			(at 33.02 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${ALTIUM_VALUE}"
-			(at 35.56 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 35.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Not mounted"
-			(at 35.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" "C0201-N.C."
-			(at 33.528 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LATESTREVISIONDATE" "2014-11-13"
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PUBLISHED" "2014-11-13"
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "N.C."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NOTE" "Chip Cap"
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0201"
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" "Not mounted"
-			(at 38.1 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARTIKKELNR NOCA" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER IPS" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HELPURL" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "N.A."
-			(at 30.988 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Capacitors"
-			(at 27.432 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 27.432 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTID" "100200001"
-			(at 27.432 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" "rsk"
-			(at 27.432 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER NORAUTRON" "N.A."
-			(at 27.432 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT STATUS" "Active"
-			(at 31.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER NEMS" "100200001"
-			(at 31.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bf0d9ee-0b5f-46f8-acce-5a2bcc581516")
-		)
-		(pin "2"
-			(uuid "48444541-8b9c-4ddd-b825-43b8d9e65ed6")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9237,72 +8758,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:GND_POWER_GROUND")
-		(at 35.56 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47deaf03-5e5a-40aa-8027-c55ab2753add")
-		(property "Reference" "#PWR06"
-			(at 35.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0de2ce37-19e9-4836-90a9-a54acb71a5cc")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 237.49 83.82 270)
 		(unit 1)
@@ -9396,7 +8851,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC0603X03L_C_NC"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 44.45 140.97 0)
 			(effects
 				(font
@@ -10036,610 +9491,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 181.61 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c76a058-3881-47b5-96af-a473f18f8072")
-		(property "Reference" "TP6"
-			(at 186.69 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 186.69 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41bd69bc-bf56-436b-a4c3-4210c25a5ebd")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nrf5340_qkaa_config3-altium-import:VDD_nRF_BAR")
-		(at 250.19 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62845c12-b0e6-4022-9aab-0a897b539b1b")
-		(property "Reference" "#PWR028"
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_nRF"
-			(at 250.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c2f84cf6-05b3-4556-a41f-18d122cbc3b1")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 204.47 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "671084dd-23c3-4122-a378-538f0a81b13d")
-		(property "Reference" "TP9"
-			(at 209.0421 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 206.5021 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 204.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 204.47 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f8ef34a-2f41-4dd7-9f1e-df90c33cfe7b")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 213.36 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "749fe65b-d7cd-4da4-a414-dd6c6540e6b6")
-		(property "Reference" "TP10"
-			(at 217.9321 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 215.3921 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 213.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 213.36 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6227531b-4338-4298-9921-aa77405e1092")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_0_mirrored_IND")
-		(at 27.94 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74f8bb50-6b6d-42f5-921c-3200d18cd8a4")
-		(property "Reference" "L1"
-			(at 27.178 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${ALTIUM_VALUE}"
-			(at 31.242 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "INDC0603X03L_C"
-			(at 27.94 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, 500mA, ±0.1ｎH, 170mOhm"
-			(at 27.94 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" "L0201-3n3-HQ-Murata"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 31.242 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "LQP03HQ3N3B02"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "N.A."
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HELPURL" "https://psearch.en.murata.com/inductor/product/LQP03HQ3N3B02%23.html"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0201"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LATESTREVISIONDATE" "2018-10-23"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PUBLISHED" "2018-10-23"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3.3nH"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NOTE" "-55°C ~ 125°C"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "490-13921-1-ND"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "N.A."
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "N.A."
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARTIKKELNR NOCA" "N.A."
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER IPS" "N.A."
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Inductors"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTID" "100300220"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" "rsk"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER NORAUTRON" "N.A."
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT STATUS" "Active"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER NEMS" "100300220"
-			(at 27.178 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "623f4d56-83d5-498a-a4ff-4d4db97b923e")
-		)
-		(pin "2"
-			(uuid "39796431-b0a1-49e2-8cc0-faca9ecf2e27")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "nrf5340_qkaa_config3-altium-import:root_3_CAP")
 		(at 20.32 27.94 0)
 		(unit 1)
@@ -10769,6 +9620,177 @@
 		)
 	)
 	(symbol
+		(lib_id "MM8130-2600RA2:MM8130-2600RA2")
+		(at 30.48 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79a33d05-7e7b-4f93-b1c7-04188128241c")
+		(property "Reference" "J3"
+			(at 30.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MM8130-2600RA2"
+			(at 30.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MM8130-2600RA2 antenna:MURATA_MM8130-2600RA2"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nSWF Connector Receptacle, Female Socket 50 Ohms Surface Mount Solder\n"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MM8130-2600RA2/Murata+Electronics+North+America/view-part/?ref=eda"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MM8130-2600RA2/Murata+Electronics+North+America/view-part/?ref=snap"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MM8130-2600RA2"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MURATA"
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "GND2"
+			(uuid "9cc4fc83-b07c-4576-9bbf-1e407337f8b5")
+		)
+		(pin "GND4"
+			(uuid "d7635810-375d-4e0d-83f5-ebb32c1f0411")
+		)
+		(pin "OUT"
+			(uuid "95d219b8-6c6b-49ee-bfcc-cb8cc221cc86")
+		)
+		(pin "GND3"
+			(uuid "c4b4dcfa-b924-4bbc-a42a-96bbb9f337fb")
+		)
+		(pin "IN"
+			(uuid "11fff14d-ed93-4204-9cf9-aadc42d11c17")
+		)
+		(pin "GND1"
+			(uuid "a5537f16-7df0-415e-8614-c75690a32723")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nrf5340_qkaa_config3-altium-import:GND_POWER_GROUND")
 		(at 71.12 163.83 0)
 		(unit 1)
@@ -10829,74 +9851,6 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 259.08 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fea785f-c2ab-4df7-81da-d7afaa4ec578")
-		(property "Reference" "TP15"
-			(at 264.16 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 264.16 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 259.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 259.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ca1ef6a-fe10-41bc-80a1-613097205b5b")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -11154,139 +10108,6 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:GND_POWER_GROUND")
-		(at 35.56 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c78ce62-13b7-41e0-9b9b-e84d03862580")
-		(property "Reference" "#PWR05"
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7037814d-2eda-45dc-a53f-7bfc9f359e45")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 250.19 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92be7167-2683-44a3-937d-5cbf824fa6eb")
-		(property "Reference" "TP13"
-			(at 245.11 147.3201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 245.11 144.7801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 250.19 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 250.19 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e228b9ff-e962-4239-b2ee-5e9786c3eceb")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -12008,7 +10829,7 @@
 	)
 	(symbol
 		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_0_Antenna with GND")
-		(at 24.13 100.33 90)
+		(at 48.26 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12016,7 +10837,7 @@
 		(dnp no)
 		(uuid "a034a250-7b1e-460a-9654-c2d45fff189c")
 		(property "Reference" "A1"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +10846,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 26.67 96.52 0)
+			(at 52.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +10855,7 @@
 			)
 		)
 		(property "Footprint" "Nordic_Semiconductor:2450AT18D0100_STD-R"
-			(at 24.13 100.33 0)
+			(at 48.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +10864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 100.33 0)
+			(at 48.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12052,7 +10873,7 @@
 			)
 		)
 		(property "Description" "2.45 GHz chip antenna"
-			(at 24.13 100.33 0)
+			(at 48.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12061,7 +10882,7 @@
 			)
 		)
 		(property "PART NUMBER" "Johanson 2450AT18D0100_STD-R"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12071,7 +10892,7 @@
 			)
 		)
 		(property "PARTID" "100700005"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12081,7 +10902,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Antennas"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,7 +10912,7 @@
 			)
 		)
 		(property "AUTHOR" "rsk"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,7 +10922,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Johanson Technology"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12111,7 +10932,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "2450AT18D0100"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12121,7 +10942,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "N.A."
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +10952,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +10962,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "N.A."
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12151,7 +10972,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +10982,7 @@
 			)
 		)
 		(property "HELPURL" "http://www.johansontechnology.com/datasheets/antennas/2450AT18D0100.pdf"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +10992,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "2450AT18D0100"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +11002,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2016-06-02"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +11012,7 @@
 			)
 		)
 		(property "PAD COUNT" "4"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +11022,7 @@
 			)
 		)
 		(property "PUBLISHED" "2016-01-12"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12211,7 +11032,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "2450AT18D0100"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12221,7 +11042,7 @@
 			)
 		)
 		(property "NOTE" "N.A."
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12231,7 +11052,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12241,7 +11062,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "2450AT18D0100E"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +11072,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +11082,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "609-2450AT18D0100E"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +11092,7 @@
 			)
 		)
 		(property "ARTIKKELNR NOCA" "53059035"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12281,7 +11102,7 @@
 			)
 		)
 		(property "PART NUMBER IPS" "00000001415"
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12291,7 +11112,7 @@
 			)
 		)
 		(property "PART NUMBER NORAUTRON" "N.A."
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12301,7 +11122,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 18.796 104.394 0)
+			(at 44.196 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12311,7 +11132,7 @@
 			)
 		)
 		(property "COMPONENT STATUS" "Active"
-			(at 16.256 104.394 0)
+			(at 44.196 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12321,7 +11142,7 @@
 			)
 		)
 		(property "PART NUMBER NEMS" "100700005"
-			(at 16.256 104.394 0)
+			(at 44.196 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,73 +11227,6 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 187.96 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2cbb8b0-69d6-46f1-8ae3-9c8ef8bd60da")
-		(property "Reference" "TP7"
-			(at 193.04 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 193.04 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1541266-d3a1-4ce6-8609-210713599e9a")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -12797,35 +11551,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 27.94 133.35 180)
+		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:GND_POWER_GROUND")
+		(at 43.18 120.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a332245e-a049-4f55-8644-a1b31fdeb25f")
-		(property "Reference" "TP1"
-			(at 30.48 135.3819 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 30.48 137.9219 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 22.86 133.35 0)
+		(uuid "a66a3b7b-b752-49e5-9d0f-92a21cdcd5bc")
+		(property "Reference" "#PWR05"
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12833,8 +11569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 22.86 133.35 0)
+		(property "Value" "GND"
+			(at 43.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,8 +11578,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 27.94 133.35 0)
+		(property "Footprint" ""
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,13 +11587,31 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "05d1549d-e435-44ce-b571-792372ffe8fb")
+		(property "Datasheet" ""
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6dd237b9-c141-4bbf-9f44-59d056f3562c")
 		)
 		(instances
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP1")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13412,345 +12166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_CAP")
-		(at 35.56 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af89359c-d68b-4bac-8e9f-9b7f49f6bce4")
-		(property "Reference" "C2"
-			(at 33.02 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${ALTIUM_VALUE}"
-			(at 35.56 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAPC0603X03L_C"
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, NP0, ±0.05pF"
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" "C0201-0.5p"
-			(at 33.528 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LATESTREVISIONDATE" "2018-10-22"
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PUBLISHED" "2014-11-13"
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "0.5pF"
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NOTE" "50V"
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0201"
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 38.1 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARTIKKELNR NOCA" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER IPS" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HELPURL" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "N.A."
-			(at 30.988 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Capacitors"
-			(at 27.432 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 27.432 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTID" "100200008"
-			(at 27.432 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" "rsk"
-			(at 27.432 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER NORAUTRON" "N.A."
-			(at 27.432 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT STATUS" "Active"
-			(at 27.432 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER NEMS" "100200008"
-			(at 27.432 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0e26b84-5acf-401d-84bc-0e2fcaedd4b4")
-		)
-		(pin "2"
-			(uuid "09d0086e-6c3a-44b9-99fa-658a436aaaa3")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "nrf5340_qkaa_config3-altium-import:VDD_nRF_BAR")
 		(at 199.39 118.11 180)
 		(unit 1)
@@ -13939,6 +12354,73 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31062d0-7a62-4de7-9593-bc1c0e9f1a8a")
+		(property "Reference" "TP1"
+			(at 234.95 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18a80e64-49ec-4638-b4f2-7fa7cf10a9a7")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -14619,7 +13101,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "INDC0603X03L_C"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 67.31 133.35 0)
 			(effects
 				(font
