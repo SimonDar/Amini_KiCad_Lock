@@ -5,6 +5,207 @@
 	(uuid "030762cc-f5a7-43ca-9be6-07123a61669e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -4943,16 +5144,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 119.38) (xy 259.08 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "157bd9d9-7a84-4920-8bfa-3d0cde8a1c85")
-	)
-	(wire
-		(pts
 			(xy 78.74 74.93) (xy 50.8 74.93)
 		)
 		(stroke
@@ -5010,16 +5201,6 @@
 			(type default)
 		)
 		(uuid "41f16065-9d0c-449f-9601-a2f0840af854")
-	)
-	(wire
-		(pts
-			(xy 241.3 109.22) (xy 259.08 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4285b37a-b809-468c-ac40-3a1da44215c1")
 	)
 	(wire
 		(pts
@@ -5123,6 +5304,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 119.38) (xy 259.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6373fadc-475f-4da8-9372-8e11f8c0f85d")
+	)
+	(wire
+		(pts
 			(xy 210.82 69.85) (xy 229.87 69.85)
 		)
 		(stroke
@@ -5130,6 +5321,16 @@
 			(type default)
 		)
 		(uuid "64d2cc91-8581-49ce-ae24-e4a756832803")
+	)
+	(wire
+		(pts
+			(xy 234.95 109.22) (xy 234.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c4d27a-9b4b-4c65-a998-93ffc22215b1")
 	)
 	(wire
 		(pts
@@ -5303,6 +5504,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 121.92) (xy 234.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5eddd1-a955-4c43-8d54-5071ec6bd0b5")
+	)
+	(wire
+		(pts
 			(xy 78.74 24.13) (xy 67.31 24.13)
 		)
 		(stroke
@@ -5310,6 +5521,16 @@
 			(type default)
 		)
 		(uuid "b23552fe-aa5c-4fbc-a453-2991dc5044e2")
+	)
+	(wire
+		(pts
+			(xy 234.95 109.22) (xy 259.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c62f6e-bffb-43c6-ba76-3f6204ebcf1d")
 	)
 	(wire
 		(pts
@@ -5403,6 +5624,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 129.54) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2624c68-b6ab-4202-812d-4a777bef228c")
+	)
+	(wire
+		(pts
 			(xy 71.12 85.09) (xy 50.8 85.09)
 		)
 		(stroke
@@ -5450,16 +5681,6 @@
 			(type default)
 		)
 		(uuid "e666a067-03e4-4f94-a04e-b88bdb5930b3")
-	)
-	(wire
-		(pts
-			(xy 241.3 129.54) (xy 259.08 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6bfcaa2-6d75-4bcc-88c4-308929b57695")
 	)
 	(wire
 		(pts
@@ -8315,7 +8536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40de3dbc-c099-4656-b0b7-84864c2777dd")
-		(property "Reference" "TP5"
+		(property "Reference" "TPset1"
 			(at 261.62 66.0399 90)
 			(effects
 				(font
@@ -8333,7 +8554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 256.54 72.39 0)
 			(effects
 				(font
@@ -8366,7 +8587,7 @@
 		(instances
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP5")
+					(reference "TPset1")
 					(unit 1)
 				)
 			)
@@ -8767,7 +8988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d6f7fd-a85b-4f6e-885c-7a93757f59d4")
-		(property "Reference" "TP4"
+		(property "Reference" "TPio1"
 			(at 242.57 63.4999 90)
 			(effects
 				(font
@@ -8785,7 +9006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 237.49 69.85 0)
 			(effects
 				(font
@@ -8818,7 +9039,7 @@
 		(instances
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP4")
+					(reference "TPio1")
 					(unit 1)
 				)
 			)
@@ -9225,6 +9446,77 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 229.87 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c19a32-8d48-4ddc-bc87-3f6acf73a240")
+		(property "Reference" "J4"
+			(at 230.505 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 230.505 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+			(at 229.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 229.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1119a15a-023f-4105-9d6f-1c857c440270")
+		)
+		(pin "2"
+			(uuid "d1ff4227-6751-452a-9466-29be41c8f944")
+		)
+		(pin "1"
+			(uuid "0b42befe-b4eb-43f4-a18c-e20130ccde7d")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11976,7 +12268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d817b0-e232-479a-8f96-a1a133a95f0c")
-		(property "Reference" "TP3"
+		(property "Reference" "TPclk1"
 			(at 227.33 60.9599 90)
 			(effects
 				(font
@@ -11994,7 +12286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 222.25 67.31 0)
 			(effects
 				(font
@@ -12027,7 +12319,7 @@
 		(instances
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP3")
+					(reference "TPclk1")
 					(unit 1)
 				)
 			)
@@ -12369,7 +12661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31062d0-7a62-4de7-9593-bc1c0e9f1a8a")
-		(property "Reference" "TP1"
+		(property "Reference" "TPgnd1"
 			(at 234.95 68.5799 90)
 			(effects
 				(font
@@ -12387,7 +12679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 229.87 74.93 0)
 			(effects
 				(font
@@ -12420,7 +12712,7 @@
 		(instances
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "TP1")
+					(reference "TPgnd1")
 					(unit 1)
 				)
 			)
