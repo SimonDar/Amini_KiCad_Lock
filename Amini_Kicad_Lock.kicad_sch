@@ -4870,7 +4870,7 @@
 		(uuid "d6b25381-490c-4280-b9ae-5e90034b4b63")
 	)
 	(junction
-		(at 210.82 88.9)
+		(at 210.82 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde8516c-7ae6-409c-b55b-06863144d94d")
@@ -4903,7 +4903,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 83.82) (xy 210.82 83.82)
+			(xy 237.49 64.77) (xy 210.82 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5123,7 +5123,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 88.9) (xy 229.87 88.9)
+			(xy 210.82 69.85) (xy 229.87 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5533,7 +5533,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 86.36) (xy 210.82 86.36)
+			(xy 256.54 67.31) (xy 210.82 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5543,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 81.28) (xy 210.82 81.28)
+			(xy 222.25 62.23) (xy 210.82 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5667,7 @@
 		(uuid "3983d23e-aabd-4332-a0ba-00e6dfb974f2")
 	)
 	(label "SWDIO"
-		(at 212.09 83.82 0)
+		(at 212.09 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5700,7 +5700,7 @@
 		(uuid "769c35f8-eeb6-4eae-8cd5-ce3be92f0891")
 	)
 	(label "SWDCLK"
-		(at 212.09 81.28 0)
+		(at 212.09 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5733,7 +5733,7 @@
 		(uuid "917ec7cd-f073-4a54-87c8-4678608de1f3")
 	)
 	(label "~{RESET}"
-		(at 212.09 86.36 0)
+		(at 212.09 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6555,7 +6555,7 @@
 	)
 	(symbol
 		(lib_id "nrf5340_qkaa_config3-altium-import:GND_POWER_GROUND")
-		(at 210.82 88.9 0)
+		(at 210.82 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6563,7 +6563,7 @@
 		(dnp no)
 		(uuid "289319ec-4d58-4a36-bf81-df982b915388")
 		(property "Reference" "#PWR021"
-			(at 210.82 88.9 0)
+			(at 210.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 95.25 0)
+			(at 210.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 88.9 0)
+			(at 210.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 88.9 0)
+			(at 210.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6599,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 88.9 0)
+			(at 210.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8307,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 86.36 270)
+		(at 256.54 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8316,7 +8316,7 @@
 		(fields_autoplaced yes)
 		(uuid "40de3dbc-c099-4656-b0b7-84864c2777dd")
 		(property "Reference" "TP14"
-			(at 261.62 85.0899 90)
+			(at 261.62 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8325,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 261.62 87.6299 90)
+			(at 261.62 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8334,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 256.54 91.44 0)
+			(at 256.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +8343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 91.44 0)
+			(at 256.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8352,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 256.54 86.36 0)
+			(at 256.54 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +8759,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 237.49 83.82 270)
+		(at 237.49 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8768,7 +8768,7 @@
 		(fields_autoplaced yes)
 		(uuid "48d6f7fd-a85b-4f6e-885c-7a93757f59d4")
 		(property "Reference" "TP12"
-			(at 242.57 82.5499 90)
+			(at 242.57 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,7 +8777,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 242.57 85.0899 90)
+			(at 242.57 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,7 +8786,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 237.49 88.9 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,7 +8795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 88.9 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,7 +8804,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 83.82 0)
+			(at 237.49 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +10756,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 205.74 86.36 180)
+		(at 205.74 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10764,7 +10764,7 @@
 		(dnp no)
 		(uuid "9fb01fc1-46f5-49f5-b22c-1037c8ca976b")
 		(property "Reference" "J2"
-			(at 205.74 74.93 0)
+			(at 205.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,7 +10772,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 205.74 77.47 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +10780,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 205.74 86.36 0)
+			(at 205.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10789,7 +10789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 86.36 0)
+			(at 205.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +10798,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 86.36 0)
+			(at 205.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +11968,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 222.25 81.28 270)
+		(at 222.25 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11977,7 +11977,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7d817b0-e232-479a-8f96-a1a133a95f0c")
 		(property "Reference" "TP11"
-			(at 227.33 80.0099 90)
+			(at 227.33 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11986,7 +11986,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 227.33 82.5499 90)
+			(at 227.33 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +11995,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 222.25 86.36 0)
+			(at 222.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,7 +12004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 86.36 0)
+			(at 222.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,7 +12013,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 81.28 0)
+			(at 222.25 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12361,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 229.87 88.9 270)
+		(at 229.87 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12370,7 +12370,7 @@
 		(fields_autoplaced yes)
 		(uuid "b31062d0-7a62-4de7-9593-bc1c0e9f1a8a")
 		(property "Reference" "TP1"
-			(at 234.95 87.6299 90)
+			(at 234.95 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12379,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 234.95 90.1699 90)
+			(at 234.95 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12388,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 229.87 93.98 0)
+			(at 229.87 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +12397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 93.98 0)
+			(at 229.87 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,7 +12406,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 229.87 88.9 0)
+			(at 229.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
