@@ -1,4 +1,4 @@
-23412611110911550
+23412613310478716
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66357,7 +66357,7 @@ CAPC0603X03L_C
 
 
 0
-2
+4
 2
 Nordic_Semiconductor
 CAPC0603X03L_C_NC
@@ -66392,7 +66392,7 @@ RESC0603X03L_C
 
 
 0
-2
+4
 2
 Nordic_Semiconductor
 SON127P600X80_HS-9N
