@@ -10450,7 +10450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CAPC1005X04L"
 			(at 71.12 163.83 0)
 			(effects
 				(font
@@ -14471,7 +14471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 194.31 118.11 0)
 			(effects
 				(font
