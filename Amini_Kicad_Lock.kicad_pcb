@@ -1618,7 +1618,7 @@
 			(uuid "ab259059-dbe8-4bd3-836b-f970ea1a6c62")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.275 -0.705 270)
+			(at 0.275 -0.705 -90)
 			(layer "F.Fab")
 			(uuid "b31823ad-b8e1-46a3-a184-e456652b4e9a")
 			(effects
@@ -4563,7 +4563,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "LED3"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "bc3ea88c-f8d6-4a82-9811-0b8014b60fef")
 			(effects
@@ -4574,7 +4574,7 @@
 			)
 		)
 		(property "Value" "L0603G"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "ea44b1e7-73f4-436c-9c3f-bb4c3f388382")
 			(effects
@@ -5071,7 +5071,7 @@
 			(uuid "fd9e2796-b896-484f-8fa5-170a833ec0fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ba2c31ec-6da3-45b1-94f8-fb38ff7fa2c6")
 			(effects
@@ -5677,7 +5677,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "LED1"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "ae643e49-66b7-4181-819a-cd1e9327102a")
 			(effects
@@ -5688,7 +5688,7 @@
 			)
 		)
 		(property "Value" "L0603G"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "d43d98ef-43d3-41c7-9ae6-e121eefd8ade")
 			(effects
@@ -6185,7 +6185,7 @@
 			(uuid "990d63b3-6bff-4c63-94f3-8fdcf3434846")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "032a1295-fb0a-4b45-8110-55d59115e6ce")
 			(effects
@@ -6234,7 +6234,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "LED2"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "6cd32e6f-9edf-4568-8769-6c7968edcfc0")
 			(effects
@@ -6245,7 +6245,7 @@
 			)
 		)
 		(property "Value" "L0603G"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "0703c5d0-ff8a-422c-a570-1b3132a69326")
 			(effects
@@ -6742,7 +6742,7 @@
 			(uuid "0071cae4-ac3f-47ba-a83d-8ba77889c3bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e0123ae0-406b-42f9-8060-2e90eb1b4e4b")
 			(effects
@@ -6901,7 +6901,7 @@
 		(uuid "9b23f231-7d82-4a27-892e-99d1b42547cf")
 		(at 181.6 70.45 90)
 		(property "Reference" "J3"
-			(at -0.226563 -2.059884 270)
+			(at -0.226563 -2.059884 -90)
 			(layer "F.SilkS")
 			(uuid "fb3b5214-79ec-47ef-83e1-0ef18e8f33cb")
 			(effects
@@ -6912,7 +6912,7 @@
 			)
 		)
 		(property "Value" "MM8130-2600RA2"
-			(at 4.660389 2.199732 270)
+			(at 4.660389 2.199732 -90)
 			(layer "F.Fab")
 			(uuid "a670ef7b-428a-428e-8e95-3acf930379a0")
 			(effects
@@ -10590,7 +10590,7 @@
 			(uuid "9706623e-ff50-47c9-8391-40159b05ff83")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.765 -2.175 270)
+			(at -0.765 -2.175 -90)
 			(layer "F.Fab")
 			(uuid "aaa8db28-180c-4866-90cf-cea16944459c")
 			(effects
@@ -11974,7 +11974,7 @@
 			(uuid "5e41d3b8-af57-464b-8b62-dc7b14b4483d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.275 -0.705 360)
+			(at 0.275 -0.705 0)
 			(layer "F.Fab")
 			(uuid "a492a11e-8e84-46d6-a9ad-8bc1cc9d80a7")
 			(effects
@@ -12253,7 +12253,7 @@
 			(uuid "d4c33fd7-5c89-47af-8d7c-e7ab62975765")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.275 -0.705 360)
+			(at 0.275 -0.705 0)
 			(layer "F.Fab")
 			(uuid "eb7f698e-1552-4fc8-93b0-b93c3d81ec2b")
 			(effects
@@ -13635,7 +13635,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "C18"
-			(at 1.6925 -1.5 270)
+			(at 1.6925 -1.5 -90)
 			(layer "F.SilkS")
 			(uuid "d330f771-da96-4929-ba74-4d1e7b6e24e2")
 			(effects
@@ -13646,7 +13646,7 @@
 			)
 		)
 		(property "Value" "N.C."
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "7a4b4821-0cfd-49b5-b3ee-734226010951")
 			(effects
@@ -14149,7 +14149,7 @@
 			(uuid "ce36603a-18e9-4010-bcd8-a25315435b95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ceb99b1f-aab3-4799-92c0-a0ed051e5475")
 			(effects
