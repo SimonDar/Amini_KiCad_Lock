@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -179,8 +179,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -205,7 +205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -240,7 +240,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
@@ -275,6 +287,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -357,6 +380,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -665,6 +706,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -812,6 +989,163 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4918,10 +5252,10 @@
 		(uuid "6c409cec-3c26-4e88-8cff-11685a73c007")
 	)
 	(junction
-		(at 44.45 133.35)
+		(at 45.72 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "826cba48-1ef7-473c-9fae-3485a61c5918")
+		(uuid "6cf3372a-0beb-4874-a669-3b255c2de2ab")
 	)
 	(junction
 		(at 71.12 85.09)
@@ -4936,16 +5270,22 @@
 		(uuid "9e6f1e86-efa9-4580-bede-2c8eb1622ae1")
 	)
 	(junction
+		(at 60.96 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d3c892-b684-4610-aed0-171285d69275")
+	)
+	(junction
 		(at 71.12 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab3c9ae1-3c52-4eed-aaf0-6cc62fa5a495")
 	)
 	(junction
-		(at 74.93 133.35)
+		(at 30.48 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aeaf65ab-709e-4c35-9660-ca60724e6214")
+		(uuid "b1901b4f-4be6-45f8-93b4-4eac2fc38f2c")
 	)
 	(junction
 		(at 213.36 15.24)
@@ -5001,6 +5341,12 @@
 		(color 0 0 0 0)
 		(uuid "e68e61c4-216f-4afc-989c-6f0080c27892")
 	)
+	(junction
+		(at 72.39 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f75febba-92d0-428d-8695-a811a3178ea2")
+	)
 	(wire
 		(pts
 			(xy 204.47 120.65) (xy 199.39 120.65)
@@ -5013,16 +5359,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 64.77) (xy 181.61 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a7dd62-5aa0-4ac9-9fb1-82dd3d4eb8fe")
-	)
-	(wire
-		(pts
 			(xy 237.49 64.77) (xy 210.82 64.77)
 		)
 		(stroke
@@ -5030,16 +5366,6 @@
 			(type default)
 		)
 		(uuid "051fb168-14c3-477e-a4aa-4a6623e3e58e")
-	)
-	(wire
-		(pts
-			(xy 74.93 133.35) (xy 78.74 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c549c65-a591-4887-96a2-0f514d9d880d")
 	)
 	(wire
 		(pts
@@ -5073,6 +5399,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 109.22) (xy 280.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bc589d-c1f6-4cb2-8df5-7e054f1ff1b0")
+	)
+	(wire
+		(pts
 			(xy 78.74 74.93) (xy 50.8 74.93)
 		)
 		(stroke
@@ -5090,6 +5426,16 @@
 			(type default)
 		)
 		(uuid "1c81b4e4-365e-4b3d-9abb-2697e5eab867")
+	)
+	(wire
+		(pts
+			(xy 144.78 29.21) (xy 194.31 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d359bf-07e2-4a1e-bd50-0a33936a34e6")
 	)
 	(wire
 		(pts
@@ -5113,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 133.35) (xy 60.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32496ca4-a100-4e4a-8dcd-7e0220e0ff4a")
+	)
+	(wire
+		(pts
 			(xy 78.74 115.57) (xy 71.12 115.57)
 		)
 		(stroke
@@ -5133,6 +5489,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 133.35) (xy 72.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4b9956-ffcf-42c5-8fe4-14d9a1bee344")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd2b231-9946-4dfd-b139-15aec4b4e8ea")
+	)
+	(wire
+		(pts
 			(xy 203.2 15.24) (xy 213.36 15.24)
 		)
 		(stroke
@@ -5140,6 +5516,16 @@
 			(type default)
 		)
 		(uuid "41f16065-9d0c-449f-9601-a2f0840af854")
+	)
+	(wire
+		(pts
+			(xy 234.95 124.46) (xy 234.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4294389d-accd-427f-aa6d-6b62efd1ba40")
 	)
 	(wire
 		(pts
@@ -5153,13 +5539,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 133.35) (xy 59.69 133.35)
+			(xy 233.68 121.92) (xy 233.68 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4672ea6e-574f-4d9c-90cb-50255c560a7e")
+		(uuid "438f8778-c688-452b-87fc-81731d5bbf97")
 	)
 	(wire
 		(pts
@@ -5170,6 +5556,26 @@
 			(type default)
 		)
 		(uuid "4804d7e7-423e-41eb-b751-dd40c4c29209")
+	)
+	(wire
+		(pts
+			(xy 144.78 31.75) (xy 194.31 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe16db8-2833-4b5f-9320-ef58c554e2c2")
+	)
+	(wire
+		(pts
+			(xy 72.39 133.35) (xy 78.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52136a9e-0cdb-4073-bacc-b35ba6115cfb")
 	)
 	(wire
 		(pts
@@ -5233,13 +5639,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 119.38) (xy 259.08 119.38)
+			(xy 30.48 133.35) (xy 34.29 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6373fadc-475f-4da8-9372-8e11f8c0f85d")
+		(uuid "63e8482e-7e7d-4c86-a090-fd4593643840")
 	)
 	(wire
 		(pts
@@ -5250,16 +5656,6 @@
 			(type default)
 		)
 		(uuid "64d2cc91-8581-49ce-ae24-e4a756832803")
-	)
-	(wire
-		(pts
-			(xy 234.95 109.22) (xy 234.95 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c4d27a-9b4b-4c65-a998-93ffc22215b1")
 	)
 	(wire
 		(pts
@@ -5290,16 +5686,6 @@
 			(type default)
 		)
 		(uuid "7a934cfe-0807-415e-8a71-9b16062a5afe")
-	)
-	(wire
-		(pts
-			(xy 144.78 90.17) (xy 194.31 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b74805d-46a3-4bce-9323-237768539892")
 	)
 	(wire
 		(pts
@@ -5373,16 +5759,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 109.22) (xy 280.67 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "880c41e2-9f0c-485a-bce0-1618eb050d26")
-	)
-	(wire
-		(pts
 			(xy 109.22 13.97) (xy 109.22 16.51)
 		)
 		(stroke
@@ -5403,6 +5779,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 109.22) (xy 276.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ce61e6-e81f-46d1-b011-a8e139c84a94")
+	)
+	(wire
+		(pts
 			(xy 20.32 133.35) (xy 20.32 115.57)
 		)
 		(stroke
@@ -5410,6 +5796,16 @@
 			(type default)
 		)
 		(uuid "9395064d-70fa-42e1-aa30-8592392dc28c")
+	)
+	(wire
+		(pts
+			(xy 234.95 109.22) (xy 234.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d7fa05-4b94-42b6-82b1-ab8434d4acd8")
 	)
 	(wire
 		(pts
@@ -5433,13 +5829,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 121.92) (xy 234.95 129.54)
+			(xy 233.68 119.38) (xy 259.08 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa5eddd1-a955-4c43-8d54-5071ec6bd0b5")
+		(uuid "a8aceddc-bd9c-458f-b020-bc7c9ea2f519")
+	)
+	(wire
+		(pts
+			(xy 234.95 118.11) (xy 232.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab861b7f-5e3e-4f94-ab73-c1d84835f344")
 	)
 	(wire
 		(pts
@@ -5450,6 +5856,26 @@
 			(type default)
 		)
 		(uuid "b23552fe-aa5c-4fbc-a453-2991dc5044e2")
+	)
+	(wire
+		(pts
+			(xy 232.41 127) (xy 232.41 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a91a9c-98b6-4d44-be6f-720b5d2232e7")
+	)
+	(wire
+		(pts
+			(xy 232.41 121.92) (xy 233.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e49ddd-d56b-4c9b-a737-361858b8e40b")
 	)
 	(wire
 		(pts
@@ -5503,6 +5929,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 135.89) (xy 259.08 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12f21f7-4168-408f-97ff-d933b86f499d")
+	)
+	(wire
+		(pts
 			(xy 243.84 15.24) (xy 254 15.24)
 		)
 		(stroke
@@ -5510,6 +5946,16 @@
 			(type default)
 		)
 		(uuid "c3082a9c-9aa9-4302-a970-01dd3f6c8118")
+	)
+	(wire
+		(pts
+			(xy 232.41 118.11) (xy 232.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3808df7-6bd3-4499-b1c9-08b693cea1b5")
 	)
 	(wire
 		(pts
@@ -5583,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 133.35) (xy 44.45 133.35)
+			(xy 20.32 133.35) (xy 30.48 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5613,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 133.35) (xy 74.93 133.35)
+			(xy 41.91 133.35) (xy 45.72 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5743,6 +6189,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 124.46) (xy 234.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6c9bfe-f7a1-439b-afcc-4a9160046b43")
+	)
+	(wire
+		(pts
 			(xy 266.7 119.38) (xy 269.24 119.38)
 		)
 		(stroke
@@ -5814,7 +6270,7 @@
 		)
 		(uuid "23c4d9ad-65be-4e9e-9393-e8b312247298")
 	)
-	(label "LED1"
+	(label "LED3"
 		(at 241.3 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5869,6 +6325,28 @@
 		)
 		(uuid "7bdf2bfa-3542-4244-875d-6f72caeb2f76")
 	)
+	(label "LED3"
+		(at 172.72 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9033a8ab-7e65-4907-bb46-f9b7c0f1ee70")
+	)
+	(label "MIC"
+		(at 166.37 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "949e8b61-3e01-4ff5-a50f-0afbcf08ecfd")
+	)
 	(label "LED2"
 		(at 168.91 85.09 0)
 		(fields_autoplaced yes)
@@ -5880,19 +6358,8 @@
 		)
 		(uuid "96ab6a5b-84ce-4e3f-99d4-5cde5833ebd9")
 	)
-	(label "LED3"
-		(at 172.72 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a315bc04-21b3-432f-8f2d-30641c1936b0")
-	)
 	(label "LED1"
-		(at 166.37 90.17 0)
+		(at 166.37 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5900,7 +6367,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ae48f9b5-d33d-4fea-b977-691d950e3cbc")
+		(uuid "a85a4572-79cb-40fe-b4a1-34373ce5a2c8")
 	)
 	(label "~{RESET}"
 		(at 212.09 67.31 0)
@@ -5913,7 +6380,7 @@
 		)
 		(uuid "afd65155-ef22-411e-a243-a24fe62f72ac")
 	)
-	(label "LED3"
+	(label "LED1"
 		(at 241.3 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5934,6 +6401,17 @@
 			(justify left bottom)
 		)
 		(uuid "e217f5f7-b9b1-4a19-bb30-19ac759ffb3e")
+	)
+	(label "MIC"
+		(at 243.84 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1e2582d-5036-4c56-95c3-c734714347d8")
 	)
 	(symbol
 		(lib_id "pca10095_sheet4_misc-altium-import:root_0_mirrored_D{colon}LED")
@@ -6385,17 +6863,16 @@
 		)
 	)
 	(symbol
-		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_mirrored_CAP")
-		(at 74.93 140.97 0)
-		(mirror y)
+		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_CAP")
+		(at 60.96 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "26228779-4638-4fd8-abba-6c2c4f531d4e")
-		(property "Reference" "C1"
-			(at 72.898 138.43 0)
+		(uuid "1d165b32-c9c9-445b-9e6a-d78a649c6c7a")
+		(property "Reference" "C19"
+			(at 62.992 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6881,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 72.898 140.97 0)
+			(at 62.992 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,8 +6889,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 74.93 140.97 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 60.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 140.97 0)
+			(at 60.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,8 +6907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, Ceramic, NP0, ±0.1pF, 25V"
-			(at 74.93 140.97 0)
+		(property "Description" "Not mounted"
+			(at 60.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,18 +6916,8 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" "C0201-0.7p-HQ-Murata"
-			(at 76.2 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 76.2 134.62 0)
+		(property "PART NUMBER" "C0201-N.C."
+			(at 59.69 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,8 +6926,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "GJM0335C1ER70BB01D"
-			(at 76.2 134.62 0)
+		(property "LATESTREVISIONDATE" "2014-11-13"
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,8 +6936,8 @@
 				(hide yes)
 			)
 		)
-		(property "LATESTREVISIONDATE" "2020-10-13"
-			(at 76.2 134.62 0)
+		(property "PUBLISHED" "2014-11-13"
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,8 +6946,8 @@
 				(hide yes)
 			)
 		)
-		(property "PUBLISHED" "2020-03-05"
-			(at 76.2 134.62 0)
+		(property "ALTIUM_VALUE" "N.C."
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,28 +6956,8 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "0.7pF"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NOTE" "25V"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARTIKKELNR NOCA" "N.A."
-			(at 76.2 134.62 0)
+		(property "NOTE" "Chip Cap"
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6967,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 76.2 134.62 0)
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,17 +6976,8 @@
 				(hide yes)
 			)
 		)
-		(property "ASSEMBLY" ""
-			(at 72.898 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENTLINK1URL" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0335C1ER70BB01-01.pdf"
-			(at 76.2 134.62 0)
+		(property "ASSEMBLY" "Not mounted"
+			(at 62.992 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,8 +6986,8 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 76.2 134.62 0)
+		(property "MANUFACTURER" "N.A."
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,8 +6996,8 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK2URL" "https://www.murata.com/en-eu/products/productdetail?partno=GJM0335C1ER70BB01%23"
-			(at 76.2 134.62 0)
+		(property "MANUFACTURER PART NUMBER" "N.A."
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,58 +7006,8 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HELPURL" "https://www.digikey.no/product-detail/en/murata-electronics/GJM0335C1ER70BB01D/490-8076-1-ND/4380362"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "490-8076-1-ND"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "N.A."
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "N.A."
-			(at 76.2 134.62 0)
+		(property "ARTIKKELNR NOCA" "N.A."
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +7017,97 @@
 			)
 		)
 		(property "PART NUMBER IPS" "N.A."
-			(at 76.2 134.62 0)
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "N.A."
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "N.A."
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HELPURL" "N.A."
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "N.A."
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "N.A."
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" "N.A."
+			(at 59.69 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "N.A."
+			(at 59.69 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +7117,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Capacitors"
-			(at 76.962 132.842 0)
+			(at 58.928 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +7127,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 76.962 132.842 0)
+			(at 58.928 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,8 +7136,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTID" "100200441"
-			(at 76.962 132.842 0)
+		(property "PARTID" "100200001"
+			(at 58.928 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +7147,7 @@
 			)
 		)
 		(property "AUTHOR" "rsk"
-			(at 76.962 132.842 0)
+			(at 58.928 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,8 +7156,8 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER NORAUTRON" "26470001"
-			(at 76.962 132.842 0)
+		(property "PART NUMBER NORAUTRON" "N.A."
+			(at 58.928 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +7167,346 @@
 			)
 		)
 		(property "COMPONENT STATUS" "Active"
-			(at 76.962 132.842 0)
+			(at 58.928 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER NEMS" "100200001"
+			(at 58.928 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e4f165b-5e2b-4322-a87e-0612e7885145")
+		)
+		(pin "2"
+			(uuid "d40c06fc-7b5e-4c13-8a45-4aa4e080b7fe")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_mirrored_CAP")
+		(at 45.72 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26228779-4638-4fd8-abba-6c2c4f531d4e")
+		(property "Reference" "C1"
+			(at 43.688 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 43.688 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Ceramic, NP0, ±0.1pF, 25V"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0201-0.7p-HQ-Murata"
+			(at 46.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GJM0335C1ER70BB01D"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" "2020-10-13"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "2020-03-05"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0.7pF"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NOTE" "25V"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARTIKKELNR NOCA" "N.A."
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT DOC" "0201"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 43.688 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0335C1ER70BB01-01.pdf"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://www.murata.com/en-eu/products/productdetail?partno=GJM0335C1ER70BB01%23"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HELPURL" "https://www.digikey.no/product-detail/en/murata-electronics/GJM0335C1ER70BB01D/490-8076-1-ND/4380362"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "490-8076-1-ND"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" "N.A."
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "N.A."
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER IPS" "N.A."
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT CLASS" "Capacitors"
+			(at 47.752 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 47.752 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTID" "100200441"
+			(at 47.752 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AUTHOR" "rsk"
+			(at 47.752 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER NORAUTRON" "26470001"
+			(at 47.752 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT STATUS" "Active"
+			(at 47.752 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +7516,7 @@
 			)
 		)
 		(property "PART NUMBER NEMS" "100200441"
-			(at 76.962 132.842 0)
+			(at 47.752 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +9294,7 @@
 	)
 	(symbol
 		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:GND_POWER_GROUND")
-		(at 44.45 140.97 0)
+		(at 30.48 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8486,7 +9303,7 @@
 		(dnp no)
 		(uuid "4574b74d-16a0-4305-84a1-bbf5cecae597")
 		(property "Reference" "#PWR07"
-			(at 44.45 140.97 0)
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8495,7 +9312,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 147.32 0)
+			(at 30.48 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,7 +9321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 140.97 0)
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +9330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 140.97 0)
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +9339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 140.97 0)
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,34 +9745,35 @@
 		)
 	)
 	(symbol
-		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_CAP")
-		(at 44.45 140.97 0)
+		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:GND_POWER_GROUND")
+		(at 72.39 140.97 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4c650f45-3d13-4582-a202-07b13eb9defd")
-		(property "Reference" "C18"
-			(at 46.482 138.43 0)
+		(uuid "4919d431-2bf4-407d-973b-405d557ca766")
+		(property "Reference" "#PWR06"
+			(at 72.39 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
-			(at 46.482 140.97 0)
+		(property "Value" "GND"
+			(at 72.39 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 44.45 140.97 0)
+		(property "Footprint" ""
+			(at 72.39 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +9782,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 140.97 0)
+			(at 72.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "461aca2e-1974-49e7-aa25-faef9c712f14")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_1_CAP")
+		(at 30.48 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c650f45-3d13-4582-a202-07b13eb9defd")
+		(property "Reference" "C18"
+			(at 32.512 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 32.512 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,7 +9857,7 @@
 			)
 		)
 		(property "Description" "Not mounted"
-			(at 44.45 140.97 0)
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +9866,7 @@
 			)
 		)
 		(property "PART NUMBER" "C0201-N.C."
-			(at 43.18 138.938 0)
+			(at 29.21 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +9876,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2014-11-13"
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +9886,7 @@
 			)
 		)
 		(property "PUBLISHED" "2014-11-13"
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9896,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "N.C."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +9906,7 @@
 			)
 		)
 		(property "NOTE" "Chip Cap"
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9032,7 +9916,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9926,7 @@
 			)
 		)
 		(property "ASSEMBLY" "Not mounted"
-			(at 46.482 143.51 0)
+			(at 32.512 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9936,7 @@
 			)
 		)
 		(property "MANUFACTURER" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,7 +9946,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9072,7 +9956,7 @@
 			)
 		)
 		(property "ARTIKKELNR NOCA" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9082,7 +9966,7 @@
 			)
 		)
 		(property "PART NUMBER IPS" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +9976,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9986,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +9996,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +10006,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +10016,7 @@
 			)
 		)
 		(property "HELPURL" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +10026,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +10036,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,7 +10046,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +10056,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "N.A."
-			(at 43.18 136.398 0)
+			(at 29.21 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9182,7 +10066,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Capacitors"
-			(at 42.418 132.842 0)
+			(at 28.448 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9192,7 +10076,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 42.418 132.842 0)
+			(at 28.448 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +10086,7 @@
 			)
 		)
 		(property "PARTID" "100200001"
-			(at 42.418 132.842 0)
+			(at 28.448 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +10096,7 @@
 			)
 		)
 		(property "AUTHOR" "rsk"
-			(at 42.418 132.842 0)
+			(at 28.448 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +10106,7 @@
 			)
 		)
 		(property "PART NUMBER NORAUTRON" "N.A."
-			(at 42.418 132.842 0)
+			(at 28.448 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +10116,7 @@
 			)
 		)
 		(property "COMPONENT STATUS" "Active"
-			(at 42.418 132.842 0)
+			(at 28.448 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +10126,7 @@
 			)
 		)
 		(property "PART NUMBER NEMS" "100200001"
-			(at 42.418 132.842 0)
+			(at 28.448 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +10152,7 @@
 	)
 	(symbol
 		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:GND_POWER_GROUND")
-		(at 74.93 140.97 0)
+		(at 45.72 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9277,7 +10161,7 @@
 		(dnp no)
 		(uuid "4fc17942-1c76-4a85-9817-0ed5f7248fdb")
 		(property "Reference" "#PWR014"
-			(at 74.93 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +10170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 147.32 0)
+			(at 45.72 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +10179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +10188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +10197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,77 +10212,6 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 229.87 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51c19a32-8d48-4ddc-bc87-3f6acf73a240")
-		(property "Reference" "J4"
-			(at 230.505 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 230.505 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
-			(at 229.87 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 229.87 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1119a15a-023f-4105-9d6f-1c857c440270")
-		)
-		(pin "2"
-			(uuid "d1ff4227-6751-452a-9466-29be41c8f944")
-		)
-		(pin "1"
-			(uuid "0b42befe-b4eb-43f4-a18c-e20130ccde7d")
-		)
-		(instances
-			(project "Amini_Kicad_Lock"
-				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9854,6 +10667,141 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 64.77 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f53717a-a598-44cd-8826-19fd06c293ac")
+		(property "Reference" "L4"
+			(at 64.77 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2nH"
+			(at 64.77 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94760dd8-101f-4b40-999c-184b0cd644a6")
+		)
+		(pin "1"
+			(uuid "60d747f9-5b7b-4c2d-891b-aca9f55bfcf9")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:GND_POWER_GROUND")
+		(at 60.96 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fc6712d-8ee3-40a8-884e-087089b762e2")
+		(property "Reference" "#PWR05"
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "43e278ea-a1bf-4faa-ba3b-9d52a6bb1ac5")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10853,7 +11801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 205.74 67.31 0)
 			(effects
 				(font
@@ -12434,6 +13382,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 72.39 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b32656e3-2461-401e-8a1b-b2c988e4573a")
+		(property "Reference" "C17"
+			(at 76.2 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.7pF"
+			(at 76.2 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 73.3552 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d239b9de-ea76-4bc9-ae19-765fbfc7962f")
+		)
+		(pin "2"
+			(uuid "eb3644e9-1fd8-4322-8c5c-bb00d44ae079")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nrf5340_qkaa_config3-altium-import:root_3_CAP")
 		(at 223.52 15.24 0)
 		(unit 1)
@@ -13082,7 +14100,7 @@
 	)
 	(symbol
 		(lib_id "pca10143_sheet2_nrf5340_mcu-altium-import:root_0_IND")
-		(at 67.31 133.35 0)
+		(at 41.91 133.35 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13091,7 +14109,7 @@
 		(dnp no)
 		(uuid "d59d53eb-6a60-4f0d-a80e-503dd60f1b08")
 		(property "Reference" "L1"
-			(at 66.548 132.588 0)
+			(at 41.148 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,7 +14118,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 66.548 136.652 0)
+			(at 41.148 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13108,8 +14126,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 67.31 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 41.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13118,7 +14136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 133.35 0)
+			(at 41.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,7 +14145,7 @@
 			)
 		)
 		(property "Description" "Inductor, 600mA, ±0.1ｎH, 120mOhm"
-			(at 67.31 133.35 0)
+			(at 41.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13136,7 +14154,7 @@
 			)
 		)
 		(property "PART NUMBER" "L0201-2n2-HQ-Murata"
-			(at 67.818 132.08 0)
+			(at 42.418 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +14164,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 66.548 139.192 0)
+			(at 41.148 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +14173,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,7 +14183,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "LQP03HQ2N2B02"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,7 +14193,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,7 +14203,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13195,7 +14213,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "N.A."
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13205,7 +14223,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13215,7 +14233,7 @@
 			)
 		)
 		(property "HELPURL" "https://psearch.en.murata.com/inductor/product/LQP03HQ2N2B02%23.html"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13225,7 +14243,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +14253,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2018-10-23"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +14263,7 @@
 			)
 		)
 		(property "PUBLISHED" "2018-10-23"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13255,7 +14273,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "2.2nH"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13265,7 +14283,7 @@
 			)
 		)
 		(property "NOTE" "-55°C ~ 125°C"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +14293,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13285,7 +14303,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "490-13899-1-ND"
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13295,7 +14313,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "N.A."
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,7 +14323,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "N.A."
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,7 +14333,7 @@
 			)
 		)
 		(property "ARTIKKELNR NOCA" "N.A."
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,7 +14343,7 @@
 			)
 		)
 		(property "PART NUMBER IPS" "N.A."
-			(at 67.818 129.54 0)
+			(at 42.418 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13335,7 +14353,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Inductors"
-			(at 67.818 130.048 0)
+			(at 42.418 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +14363,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 67.818 130.048 0)
+			(at 42.418 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,7 +14373,7 @@
 			)
 		)
 		(property "PARTID" "100300209"
-			(at 67.818 130.048 0)
+			(at 42.418 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13365,7 +14383,7 @@
 			)
 		)
 		(property "AUTHOR" "rsk"
-			(at 67.818 132.08 0)
+			(at 42.418 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13375,7 +14393,7 @@
 			)
 		)
 		(property "PART NUMBER NORAUTRON" "26521773"
-			(at 67.818 132.08 0)
+			(at 42.418 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13385,7 +14403,7 @@
 			)
 		)
 		(property "COMPONENT STATUS" "Active"
-			(at 67.818 130.048 0)
+			(at 42.418 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +14413,7 @@
 			)
 		)
 		(property "PART NUMBER NEMS" "100300209"
-			(at 67.818 130.048 0)
+			(at 42.418 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14023,6 +15041,78 @@
 			(project "Amini_Kicad_Lock"
 				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 227.33 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f211095b-ba07-4e44-814f-0ee246869b8e")
+		(property "Reference" "J3"
+			(at 227.965 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 227.965 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "53624562-ab5e-443d-a13f-cc7c19df1995")
+		)
+		(pin "2"
+			(uuid "2804c68c-3b4d-4e60-b35c-f3ea619d5618")
+		)
+		(pin "3"
+			(uuid "c13340af-b017-4cec-ac66-16e8e614554a")
+		)
+		(pin "1"
+			(uuid "2ad2b436-88f5-4a18-a1da-bd1bc0945490")
+		)
+		(instances
+			(project "Amini_Kicad_Lock"
+				(path "/030762cc-f5a7-43ca-9be6-07123a61669e"
+					(reference "J3")
 					(unit 1)
 				)
 			)

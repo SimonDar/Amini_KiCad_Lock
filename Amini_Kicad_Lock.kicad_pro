@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 1.0
+          "height": 0.85,
+          "width": 0.95
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -130,7 +130,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -179,6 +179,7 @@
       "track_widths": [
         0.0,
         0.127,
+        0.13,
         0.14,
         0.18,
         0.2,
