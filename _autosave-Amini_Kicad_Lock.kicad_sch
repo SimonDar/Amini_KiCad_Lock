@@ -13731,7 +13731,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 219.202 22.86 0)
+			(at 215.138 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

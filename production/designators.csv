@@ -33,10 +33,10 @@ LED3:1
 R1:1
 R2:1
 R3:1
-TPclk1:1
-TPgnd1:1
-TPio1:1
-TPset1:1
 U1:1
 X1:1
 X2:1
+clk:1
+gnd:1
+io:1
+set:1
