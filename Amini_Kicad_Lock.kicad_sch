@@ -14144,7 +14144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, 600mA, ±0.1ｎH, 120mOhm"
+		(property "Description" "0R"
 			(at 41.91 133.35 0)
 			(effects
 				(font
@@ -14153,7 +14153,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" "L0201-2n2-HQ-Murata"
+		(property "PART NUMBER" "0"
 			(at 42.418 132.08 0)
 			(effects
 				(font
@@ -14172,7 +14172,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14182,7 +14182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "LQP03HQ2N2B02"
+		(property "MANUFACTURER PART NUMBER" "0"
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14192,7 +14192,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1URL" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0021.pdf"
+		(property "COMPONENTLINK1URL" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14202,7 +14202,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+		(property "COMPONENTLINK1DESCRIPTION" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14222,7 +14222,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
+		(property "COMPONENTLINK2DESCRIPTION" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14232,7 +14232,7 @@
 				(hide yes)
 			)
 		)
-		(property "HELPURL" "https://psearch.en.murata.com/inductor/product/LQP03HQ2N2B02%23.html"
+		(property "HELPURL" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14242,7 +14242,7 @@
 				(hide yes)
 			)
 		)
-		(property "FOOTPRINT DOC" "0201"
+		(property "FOOTPRINT DOC" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14252,7 +14252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LATESTREVISIONDATE" "2018-10-23"
+		(property "LATESTREVISIONDATE" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14262,7 +14262,7 @@
 				(hide yes)
 			)
 		)
-		(property "PUBLISHED" "2018-10-23"
+		(property "PUBLISHED" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14272,7 +14272,7 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2nH"
+		(property "ALTIUM_VALUE" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14282,7 +14282,7 @@
 				(hide yes)
 			)
 		)
-		(property "NOTE" "-55°C ~ 125°C"
+		(property "NOTE" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14292,7 +14292,7 @@
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER 1" "Digi-Key"
+		(property "SUPPLIER 1" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14302,7 +14302,7 @@
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER PART NUMBER 1" "490-13899-1-ND"
+		(property "SUPPLIER PART NUMBER 1" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14312,7 +14312,7 @@
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER 2" "N.A."
+		(property "SUPPLIER 2" ""
 			(at 42.418 129.54 0)
 			(effects
 				(font
@@ -14352,7 +14352,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENT CLASS" "Inductors"
+		(property "COMPONENT CLASS" ""
 			(at 42.418 130.048 0)
 			(effects
 				(font
@@ -14362,7 +14362,7 @@
 				(hide yes)
 			)
 		)
-		(property "PAD COUNT" "2"
+		(property "PAD COUNT" ""
 			(at 42.418 130.048 0)
 			(effects
 				(font
@@ -14372,7 +14372,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTID" "100300209"
+		(property "PARTID" ""
 			(at 42.418 130.048 0)
 			(effects
 				(font
@@ -14382,7 +14382,7 @@
 				(hide yes)
 			)
 		)
-		(property "AUTHOR" "rsk"
+		(property "AUTHOR" ""
 			(at 42.418 132.08 0)
 			(effects
 				(font
@@ -14392,7 +14392,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER NORAUTRON" "26521773"
+		(property "PART NUMBER NORAUTRON" ""
 			(at 42.418 132.08 0)
 			(effects
 				(font
@@ -14402,7 +14402,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENT STATUS" "Active"
+		(property "COMPONENT STATUS" ""
 			(at 42.418 130.048 0)
 			(effects
 				(font
@@ -14412,7 +14412,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER NEMS" "100300209"
+		(property "PART NUMBER NEMS" ""
 			(at 42.418 130.048 0)
 			(effects
 				(font
