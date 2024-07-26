@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "Amini_Lock-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Amini_Lock-altium-import.kicad_sym")(options "")(descr ""))
-)
